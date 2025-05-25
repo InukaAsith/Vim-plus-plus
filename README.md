@@ -2,7 +2,7 @@
 
 ## Supercharge your vim
 
-![image](/Users/inukaasith/Desktop/img.png)
+![image](./img.png)
 
 
 A feature-rich Vim configuration that transforms Vim into a modern IDE-like experience with VSCode-inspired functionality, Autocomplete support, and a clean/minimal toggle mode.
