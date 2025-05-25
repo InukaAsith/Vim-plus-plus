@@ -161,7 +161,7 @@ mv ~/.vim ~/.vim.backup
 2. **Copy the configuration:**
 ```bash
 # Copy the provided .vimrc to your home directory
-cp /path/to/your/downloaded/.vimrc ~/.vimrc
+cp ./Vim-plus-plus/vimrc ~/.vimrc
 ```
 
 3. **Install plugins:**
