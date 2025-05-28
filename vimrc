@@ -1035,19 +1035,19 @@ endfunction
 
 
 " Auto-commands for workspace behavior
-autocmd BufRead,BufNewFile * if !g:workspace_initialized && argc() > 0 | call InitializeWorkspace(expand('%:p:h')) | endif
+" autocmd BufRead,BufNewFile * if !g:workspace_initialized && argc() > 0 | call InitializeWorkspace(expand('%:p:h')) | endif
 
 " Enhanced terminal behavior - Custom vim command in terminal
-autocmd TerminalOpen * call UpdateTerminalStatusLine()
+" autocmd TerminalOpen * call UpdateTerminalStatusLine()
 
 " Override vim command to work with workspace tabs
-command! -nargs=+ -complete=file Vim call WorkspaceVimCommand(<q-args>)
+" command! -nargs=+ -complete=file Vim call WorkspaceVimCommand(<q-args>)
 
 " Command-line commands for easy access
-command! -nargs=1 -complete=dir OpenWorkspace call InitializeWorkspace(<q-args>)
-command! SaveSession call SaveWorkspaceSession()
-command! LoadSession call LoadWorkspaceSession()
-command! WorkspaceLayout call SetupWorkspaceLayout()
+" command! -nargs=1 -complete=dir OpenWorkspace call InitializeWorkspace(<q-args>)
+" command! SaveSession call SaveWorkspaceSession()
+" command! LoadSession call LoadWorkspaceSession()
+" command! WorkspaceLayout call SetupWorkspaceLayout()
 
 " Integration with existing vim command
-autocmd VimEnter * if argc() > 0 | call SmartFileOpen(argv(0)) | endif
+" autocmd VimEnter * if argc() > 0 | call SmartFileOpen(argv(0)) | endif
