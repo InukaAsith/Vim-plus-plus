@@ -113,6 +113,10 @@ sudo yum install -y curl git nodejs npm python3-pip fzf ripgrep ctags
 ```bash
 pip3 install 'python-lsp-server[all]'
 # Alternative: pip install pylsp
+
+# if pip doent enabled
+sudo apt install python3-pylsp
+
 ```
 
 #### JavaScript/TypeScript LSP
