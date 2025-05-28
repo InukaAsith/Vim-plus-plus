@@ -58,7 +58,7 @@ sudo yum install -y vim
 ### 2) Clone the Vim++ Configuration
 
 ```bash
-git clone https://github.com/inukaasith/vim++.git ~/vim++
+git clone https://github.com/inukaasith/vim-plus-plus.git ~/vim-plus-plus
 ```
 
 ### 3) Install Vim-Plug (Plugin Manager)
